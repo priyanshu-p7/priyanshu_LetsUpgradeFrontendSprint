@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="https://png.pngtree.com/png-clipart/20221010/original/pngtree-paper-icon-png-image_8671270.png" type="image/x-icon">
+    <title>College Papers Portal</title>
+    <link rel="stylesheet" href="study-material.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   
+    <!-- this is for backgroud shape -->
+<div class="background-shapes"></div>
+<div class="background-shapes"></div>
+<div class="background-shapes"></div>
+<div class="background-shapes"></div>
+<div class="background-shapes"></div>
+
+<!-- Update header with mobile menu -->
+<header>
+    <nav>
+        <div class="logo">
+            <a href='index.html'>
+                <h1><i class="fas fa-graduation-cap"></i> CollegePapers</h1>
+            </a>
+        </div>
+   
+        <!-- Mobile Menu Button -->
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links">
+            <li><a href='index.html'><i class="fas fa-home"></i> Home</a></li>
+            <li><a href='pyq.html'><i class="fas fa-file-pdf"></i> Previous Papers</a></li>
+            <li><a href='study-material.html'><i class="fa-solid fa-book"></i> Study Material</a></li>
+            <li><a href='blog.html'><i class="fas fa-blog"></i> Blogs</a></li>
+            <li><a href='about.html'><i class="fas fa-info-circle"></i> About</a></li>
+        
+            
+            
+        </ul>
+    <button class="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i> 
+    </button>
+    </nav>
+</header>
+<main class="container">
+    <div class="search-section">
+        <div class="search-container">
+            <h2>Study Notes Repository</h2>
+            <p class="hero-text">
+                Access organized study notes filtered by university, semester, and subject.
+            </p>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search notes...">
+                <button class="search-icon">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+        <select id="university" class="glass-filter">
+            <option value="">All Universities</option>
+            <option>BBD University</option>
+            <option>AKTU</option>
+        </select>
+
+        <select id="semester" class="glass-filter">
+            <option value="">All Semesters</option>
+            <option>Semester 1</option>
+            <option>Semester 2</option>
+            <option>Semester 3</option>
+            <option>Semester 4</option>
+        </select>
+
+        <select id="subject" class="glass-filter">
+            <option value="">All Subjects</option>
+            <option>Mathematics</option>
+            <option>Computer Science</option>
+            <option>Physics</option>
+        </select>
+    </div>
+
+    <!-- Notes Grid -->
+    <div class="grid" id="notes-grid">
+        <!-- Cards will be inserted here -->
+    </div>
+</main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html"><i class="fas fa-chevron-right"></i>About Us</a></li>
+                    <li><a href="blog.html"><i class="fas fa-chevron-right"></i>Blog</a></li>
+                    <li><a href="about.html#faq-section"><i class="fas fa-chevron-right"></i>FAQs</a></li>
+                    <li><a href="about.html#contact-section"><i class="fas fa-chevron-right"></i>Contact</a></li>
+                </ul>
+            </div>
+    
+    
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="pyq.html"><i class="fas fa-chevron-right"></i>Question Papers</a></li>
+                    <li><a href="javascript:void(0)" onclick="alert('Syllabus section coming soon! 📚\nPlease check back later.');"><i class="fas fa-chevron-right"></i>Syllabus</a></li>
+                    <li><a href="study-material.html"><i class="fas fa-chevron-right"></i>Study Material</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <!-- <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a> -->
+                    <a href="#" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/bbdpapers?igsh=MWgzb2ZwZWc1YzkwMw==" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <!-- <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a> -->
+                </div>
+            </div>
+        </div>
+    
+        <div class="copyright">
+            <p>&copy; 2025 College Papers Portal. All rights reserved.</p>
+        </div>
+    
+        <div class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </footer>
+    
+
+<script src="study-material.js"></script>
+<script src="theme.js"></script>
+</body><a href=" "></a>
+</html>
