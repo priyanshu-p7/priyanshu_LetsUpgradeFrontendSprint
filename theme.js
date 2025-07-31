@@ -32,23 +32,23 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Animated Background
-    const shapesContainer = document.querySelector('.background-shapes');
-    const shapes = ['circle', 'square', 'triangle'];
+    // // Animated Background
+    // const shapesContainer = document.querySelector('.background-shapes');
+    // const shapes = ['circle', 'square', 'triangle'];
     
-    for (let i = 0; i < 15; i++) {
-        const shape = document.createElement('div');
-        shape.className = `shape ${shapes[Math.floor(Math.random() * shapes.length)]}`;
-        shape.style.cssText = `
-            width: ${Math.random() * 100 + 50}px;
-            height: ${Math.random() * 100 + 50}px;
-            left: ${Math.random() * 100}%;
-            top: ${Math.random() * 100}%;
-            background: var(--shape-color);
-            animation-delay: ${Math.random() * 20}s;
-        `;
-        shapesContainer.appendChild(shape);
-    }
+    // for (let i = 0; i < 15; i++) {
+    //     const shape = document.createElement('div');
+    //     shape.className = `shape ${shapes[Math.floor(Math.random() * shapes.length)]}`;
+    //     shape.style.cssText = `
+    //         width: ${Math.random() * 100 + 50}px;
+    //         height: ${Math.random() * 100 + 50}px;
+    //         left: ${Math.random() * 100}%;
+    //         top: ${Math.random() * 100}%;
+    //         background: var(--shape-color);
+    //         animation-delay: ${Math.random() * 20}s;
+    //     `;
+    //     shapesContainer.appendChild(shape);
+    // }
 
     // Counter Animation
     const counters = document.querySelectorAll('.counter');

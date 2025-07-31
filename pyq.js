@@ -6,7 +6,7 @@ const papers = [
         subject: "Mathematics III",
         year: "2023",
         type: "Final Paper",
-        pdfUrl: "index.pdf",
+        pdfUrl: "https://drive.google.com/drive/folders/11uIDYqXgLY21OOusxiDN8jJ7m7XFZcwy",
         downloadUrl: "JAVA INDEX.pdf"
     },
     {
