@@ -99,7 +99,7 @@ window.addEventListener('scroll', () => {
       // Close other open FAQs
       document.querySelectorAll(".faq-item").forEach((otherItem) => {
         if (otherItem !== parent) {
-          otherItem.classList.remove("active");
+        //   otherItem.classList.remove("active");
         }
       });
     });
